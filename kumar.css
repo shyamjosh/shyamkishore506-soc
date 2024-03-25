@@ -32,6 +32,12 @@ li a{
     padding: 10px; /* Adding padding for better touch experience */
     color: black; /* Adjusting link color */
 }
+li a:hover{
+
+    display:inline-block;
+    background-color:red;
+    transition:2s;
+}
 @media (max-width: 768px) {
     /* Adjusting styles for smaller devices */
     .nav-bar {
